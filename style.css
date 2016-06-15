@@ -1,54 +1,56 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #c0e5f2;
-  font-size: 36px;
-  font-weight: 400;
-  color: grey;
-  letter-spacing: .02em
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c0e5f2;
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+    letter-spacing: .02em
 }
-
 #wrapper {
-  text-align: center;
-  border: solid white;
-  border-radius: 12px;
-  padding: 3em 0 3em 0 ;
-  margin: 20px 40px;
-  box-shadow: 10px 20px grey
+    text-align: center;
+    border: solid white;
+    border-radius: 12px;
+    padding: 3em 0 3em 0;
+    margin: 10px 40px;
+    box-shadow: 10px 20px grey
 }
-
 #convertTemp {
-  padding: 1em .5em;
-  min-width: 12em;
-  border: none;
-  background-color: #1f7693;
-  font-size: 24px;
-  color: white;
-  margin-top: 12px;
-  box-shadow: 2px 2px grey;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-
-
+    padding: 1em .5em;
+    min-width: 10em;
+    border: none;
+    background-color: #1f7693;
+    font-size: 18px;
+    color: white;
+    margin-top: 12px;
+    box-shadow: 2px 2px grey;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
 }
-
 #convertTemp:hover {
-  background-color: orange;
-  transition: .1s;
-
+    background-color: orange;
+    transition: .1s;
 }
-
 #message {
-  font-size: 32px;
-  font-weight: bold;
+    font-size: 32px;
+    font-weight: bold;
 }
-
 #weatherIcon {
-  font-size: 200px;
-  color: grey;
+    font-size: 100px;
+    color: grey;
+    margin-bottom: 30px;
 }
 @media only screen and (min-width: 768px) {
-  #wrapper{
-    width:700px;
-    margin:2em auto;
-  }
+    #wrapper {
+        width: 700px;
+        margin: 2em auto;
+    }
+    body{
+      font-size: 32px;
+    }
+    #convertTemp{
+      font-size: 24px;
+    }
+    #weatherIcon{
+    font-size: 180px
+    }
 }
